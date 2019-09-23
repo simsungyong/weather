@@ -7,7 +7,7 @@ import axios from 'axios';
 import Weather from './Weather';
 
 const API_KEY = "c743c0fba00b6f2bf6c367ef61dbd746"
-export default class extends React.Component {
+export default class app extends React.Component {
   state = {
     isLoading : true
   }

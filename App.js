@@ -21,7 +21,7 @@ export default class extends React.Component {
       `https://samples.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=${API_KEY}`
       );
       this.setState({isLoading: false, condition : weather[0].main, temp})
-      //console.log(data);
+      console.log(weather);
   }
 
   getLocation = async() =>{
